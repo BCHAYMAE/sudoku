@@ -1,8 +1,6 @@
 package piscine
 
 // now will check whether n can be placed in the col or row without breaking the rules 
-
-
 func IsValid(row, col, n int) bool {
 	//check the row and col 
 	for i := 0; i < 9; i++ { // loop through all cells in the same row or col

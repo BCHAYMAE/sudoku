@@ -33,7 +33,8 @@ func Error(args []string) bool {
 }
 
 func FillTable(a []string) { //convert each valid arg to int 
-	for i := 1; i < 9; i++ { //loop through rows 0 to 8 
+	Table = [9][9]int{}
+	for i := 0; i < 9; i++ { //loop through rows 0 to 8 
 		for j, c := range a[i+1] { //loop through each char
 			if c == '.' {
 				Table[i][j] = 0
