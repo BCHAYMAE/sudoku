@@ -4,7 +4,7 @@ A small Go Sudoku project with:
 
 - a backtracking solver
 - a simple browser interface rendered by Go
-- the original command-line solver mode
+- the command-line solver mode
 
 ## Run The Interface
 
